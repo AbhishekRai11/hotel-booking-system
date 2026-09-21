@@ -1,0 +1,1 @@
+package com.abhishek.hotelbooking; import org.junit.jupiter.api.Test; import static org.junit.jupiter.api.Assertions.*; class HotelBookingApplicationTests { @Test void sanity(){assertTrue(true);} }
