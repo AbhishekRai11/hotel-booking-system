@@ -1,0 +1,2 @@
+package com.abhishek.hotelbooking.config; import org.springframework.context.annotation.*; import org.springframework.data.redis.cache.RedisCacheConfiguration; import org.springframework.data.redis.serializer.*; import java.time.Duration;
+@Configuration public class RedisConfig { @Bean RedisCacheConfiguration cacheConfiguration(){ return RedisCacheConfiguration.defaultCacheConfig().entryTtl(Duration.ofMinutes(10)).serializeValuesWith(RedisSerializationContext.SerializationPair.fromSerializer(new GenericJackson2JsonRedisSerializer())); } }
