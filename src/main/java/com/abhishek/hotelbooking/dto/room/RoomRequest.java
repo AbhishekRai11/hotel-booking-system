@@ -1,0 +1,1 @@
+package com.abhishek.hotelbooking.dto.room; import jakarta.validation.constraints.*; import java.math.BigDecimal; public record RoomRequest(@NotBlank String roomNumber,@NotBlank String type,@NotNull @Positive BigDecimal pricePerNight,@NotNull @Positive Integer capacity) {}
