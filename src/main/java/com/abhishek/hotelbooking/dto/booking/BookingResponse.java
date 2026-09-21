@@ -1,0 +1,1 @@
+package com.abhishek.hotelbooking.dto.booking; import java.math.BigDecimal; import java.time.LocalDate; public record BookingResponse(Long id,Long roomId,String roomNumber,LocalDate checkIn,LocalDate checkOut,BigDecimal totalAmount,String status,String paymentStatus) {}
