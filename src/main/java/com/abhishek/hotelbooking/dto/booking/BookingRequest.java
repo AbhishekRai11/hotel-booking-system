@@ -1,0 +1,1 @@
+package com.abhishek.hotelbooking.dto.booking; import jakarta.validation.constraints.*; import java.time.LocalDate; public record BookingRequest(@NotNull Long roomId,@NotNull @FutureOrPresent LocalDate checkIn,@NotNull @Future LocalDate checkOut) {}
