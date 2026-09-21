@@ -1,0 +1,1 @@
+package com.abhishek.hotelbooking.enums; public enum PaymentStatus { PENDING, PAID, FAILED, REFUNDED }
