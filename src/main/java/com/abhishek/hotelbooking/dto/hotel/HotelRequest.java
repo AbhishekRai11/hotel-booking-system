@@ -1,0 +1,1 @@
+package com.abhishek.hotelbooking.dto.hotel; import jakarta.validation.constraints.*; public record HotelRequest(@NotBlank String name,@NotBlank String city,@NotBlank String address,String description) {}
