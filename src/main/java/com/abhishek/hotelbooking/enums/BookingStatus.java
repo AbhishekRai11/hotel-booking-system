@@ -1,0 +1,1 @@
+package com.abhishek.hotelbooking.enums; public enum BookingStatus { CONFIRMED, CANCELLED, COMPLETED }
