@@ -1,0 +1,1 @@
+package com.abhishek.hotelbooking.dto.payment; import com.abhishek.hotelbooking.enums.PaymentStatus; import jakarta.validation.constraints.NotNull; public record PaymentUpdateRequest(@NotNull PaymentStatus status) {}
